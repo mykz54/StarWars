@@ -12,7 +12,10 @@ class DetailViewController: UIViewController {
 
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
+    @IBOutlet weak var peopleContainer: UIView!
 
+    @IBOutlet weak var table: UITableView!
+    
     var detailItem: AnyObject? {
         didSet {
             // Update the view.
@@ -22,11 +25,15 @@ class DetailViewController: UIViewController {
 
     func configureView() {
         // Update the user interface for the detail item.
+        
+        
         if let detail = self.detailItem {
-            if let label = self.detailDescriptionLabel {
-                label.text = detail.valueForKey("timeStamp")!.description
-            }
+         
+              self.title = detail as? String
+        
         }
+        
+
     }
 
     override func viewDidLoad() {
@@ -39,7 +46,9 @@ class DetailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    
+ 
 
 }
 

@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		846E0CF81C8596E800176159 /* PeopleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E0CF71C8596E800176159 /* PeopleInfo.swift */; };
+		846E0CFB1C85C3B300176159 /* PeopleTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E0CFA1C85C3B300176159 /* PeopleTVCell.swift */; };
+		846E0CFD1C85CAB700176159 /* PlanetsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E0CFC1C85CAB700176159 /* PlanetsInfo.swift */; };
+		846E0CFF1C85DA1100176159 /* PlanetTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E0CFE1C85DA1100176159 /* PlanetTVCell.swift */; };
+		846E0D011C85EACD00176159 /* SatrshipInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E0D001C85EACD00176159 /* SatrshipInfo.swift */; };
+		846E0D031C860DDD00176159 /* Films.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E0D021C860DDD00176159 /* Films.swift */; };
 		84725DD71C849599003BACA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84725DD61C849599003BACA9 /* AppDelegate.swift */; };
 		84725DDA1C849599003BACA9 /* StarWars.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84725DD81C849599003BACA9 /* StarWars.xcdatamodeld */; };
 		84725DDC1C849599003BACA9 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84725DDB1C849599003BACA9 /* MasterViewController.swift */; };
@@ -16,6 +22,9 @@
 		84725DE61C849599003BACA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84725DE41C849599003BACA9 /* LaunchScreen.storyboard */; };
 		84725DF11C849599003BACA9 /* StarWarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84725DF01C849599003BACA9 /* StarWarsTests.swift */; };
 		84725DFC1C849599003BACA9 /* StarWarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84725DFB1C849599003BACA9 /* StarWarsUITests.swift */; };
+		84725E0C1C8495C1003BACA9 /* SWLibAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84725E0A1C8495C1003BACA9 /* SWLibAPI.swift */; };
+		84725E0D1C8495C1003BACA9 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84725E0B1C8495C1003BACA9 /* HTTPRequest.swift */; };
+		848FF82B1C85803600224C48 /* PeopleDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848FF82A1C85803600224C48 /* PeopleDetailsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		846E0CF71C8596E800176159 /* PeopleInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleInfo.swift; sourceTree = "<group>"; };
+		846E0CFA1C85C3B300176159 /* PeopleTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTVCell.swift; sourceTree = "<group>"; };
+		846E0CFC1C85CAB700176159 /* PlanetsInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetsInfo.swift; sourceTree = "<group>"; };
+		846E0CFE1C85DA1100176159 /* PlanetTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetTVCell.swift; sourceTree = "<group>"; };
+		846E0D001C85EACD00176159 /* SatrshipInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SatrshipInfo.swift; sourceTree = "<group>"; };
+		846E0D021C860DDD00176159 /* Films.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Films.swift; sourceTree = "<group>"; };
 		84725DD31C849599003BACA9 /* StarWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84725DD61C849599003BACA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84725DD91C849599003BACA9 /* StarWars.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StarWars.xcdatamodel; sourceTree = "<group>"; };
@@ -51,6 +66,9 @@
 		84725DF71C849599003BACA9 /* StarWarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84725DFB1C849599003BACA9 /* StarWarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsUITests.swift; sourceTree = "<group>"; };
 		84725DFD1C849599003BACA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84725E0A1C8495C1003BACA9 /* SWLibAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWLibAPI.swift; sourceTree = "<group>"; };
+		84725E0B1C8495C1003BACA9 /* HTTPRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPRequest.swift; sourceTree = "<group>"; };
+		848FF82A1C85803600224C48 /* PeopleDetailsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleDetailsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		846E0CF91C85C32900176159 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				846E0CFA1C85C3B300176159 /* PeopleTVCell.swift */,
+				846E0CFE1C85DA1100176159 /* PlanetTVCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		84725DCA1C849598003BACA9 = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +128,13 @@
 		84725DD51C849599003BACA9 /* StarWars */ = {
 			isa = PBXGroup;
 			children = (
+				846E0CF91C85C32900176159 /* View */,
+				848FF82C1C858DC400224C48 /* Model */,
+				84725E091C8495AE003BACA9 /* API */,
 				84725DD61C849599003BACA9 /* AppDelegate.swift */,
 				84725DDB1C849599003BACA9 /* MasterViewController.swift */,
 				84725DDD1C849599003BACA9 /* DetailViewController.swift */,
+				848FF8271C857EF500224C48 /* Controller */,
 				84725DDF1C849599003BACA9 /* Main.storyboard */,
 				84725DE21C849599003BACA9 /* Assets.xcassets */,
 				84725DE41C849599003BACA9 /* LaunchScreen.storyboard */,
@@ -129,6 +160,34 @@
 				84725DFD1C849599003BACA9 /* Info.plist */,
 			);
 			path = StarWarsUITests;
+			sourceTree = "<group>";
+		};
+		84725E091C8495AE003BACA9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				84725E0A1C8495C1003BACA9 /* SWLibAPI.swift */,
+				84725E0B1C8495C1003BACA9 /* HTTPRequest.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		848FF8271C857EF500224C48 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				848FF82A1C85803600224C48 /* PeopleDetailsTableViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		848FF82C1C858DC400224C48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				846E0CF71C8596E800176159 /* PeopleInfo.swift */,
+				846E0CFC1C85CAB700176159 /* PlanetsInfo.swift */,
+				846E0D001C85EACD00176159 /* SatrshipInfo.swift */,
+				846E0D021C860DDD00176159 /* Films.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +322,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				84725DDA1C849599003BACA9 /* StarWars.xcdatamodeld in Sources */,
+				846E0D031C860DDD00176159 /* Films.swift in Sources */,
+				846E0CFD1C85CAB700176159 /* PlanetsInfo.swift in Sources */,
 				84725DD71C849599003BACA9 /* AppDelegate.swift in Sources */,
+				848FF82B1C85803600224C48 /* PeopleDetailsTableViewController.swift in Sources */,
+				846E0CFB1C85C3B300176159 /* PeopleTVCell.swift in Sources */,
+				84725E0C1C8495C1003BACA9 /* SWLibAPI.swift in Sources */,
+				846E0CF81C8596E800176159 /* PeopleInfo.swift in Sources */,
+				846E0D011C85EACD00176159 /* SatrshipInfo.swift in Sources */,
+				84725E0D1C8495C1003BACA9 /* HTTPRequest.swift in Sources */,
 				84725DDC1C849599003BACA9 /* MasterViewController.swift in Sources */,
 				84725DDE1C849599003BACA9 /* DetailViewController.swift in Sources */,
+				846E0CFF1C85DA1100176159 /* PlanetTVCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +560,7 @@
 				84725E021C849599003BACA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84725E031C849599003BACA9 /* Build configuration list for PBXNativeTarget "StarWarsTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +569,7 @@
 				84725E051C849599003BACA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84725E061C849599003BACA9 /* Build configuration list for PBXNativeTarget "StarWarsUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +578,7 @@
 				84725E081C849599003BACA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
